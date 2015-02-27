@@ -1,5 +1,5 @@
 require 'rspec'
-require 'isolated/require_spec'
+require 'isolated/require_examples'
 require 'dm-core/spec/setup'
 
 # To really test this behavior, this spec needs to be run in isolation and not

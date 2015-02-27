@@ -5,7 +5,7 @@ require 'dm-core/spec/lib/pending_helpers'
 require 'dm-aggregates'
 require 'dm-migrations'
 
-require 'public/shared/aggregate_shared_spec'
+require 'public/shared/aggregate_shared_examples'
 
 DataMapper::Spec.setup
 

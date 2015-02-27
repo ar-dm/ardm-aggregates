@@ -109,7 +109,7 @@ RSpec.describe DataMapper::Collection do
         subject { dragons.count }
 
         it do
-          pending('TODO: make count apply to the limited collection. Currently limit applies after the count')
+          skip('TODO: make count apply to the limited collection. Currently limit applies after the count')
           is_expected.to eq(1)
         end
 
